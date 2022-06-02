@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"plugins": [
+			{ "transform": "./transformers/my-transformer.ts", "transformProgram": true }
+		]
+	}
+}
