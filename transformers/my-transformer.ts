@@ -42,7 +42,7 @@ function getPatchedHost(
 // region: Program Transformer
 /* ****************************************************************************************************************** */
 
-export default function transformProgram(
+export function transformProgram(
   program: Program,
   host: CompilerHost | undefined,
   config: PluginConfig,

@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
 		"plugins": [
-			{ "transform": "./transformers/my-transformer.ts", "transformProgram": true }
+			{ "transform": "./transformers/my-transformer.ts", "import": "transformProgram", "transformProgram": true },
+			// { "name": "my-plugin" }
 		]
 	}
 }
